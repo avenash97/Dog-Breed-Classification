@@ -2,6 +2,18 @@
 Classifying 120 dog breeds using deep learning model
 ### Dataset description
 Dataset is downloaded from Kaggle's Dog Breed Identification competition which comprises of training set and a test set of images of dogs. Each image has a filename that is its unique id. The dataset comprises 120 breeds of dogs. The goal  is to create a classifier capable of determining a dog's breed from a photo.
+### Packages Required
+```
+keras
+tensorflow
+matplotlib
+tflearn
+sklearn
+pillow
+numpy
+pandas
+```
+
 ### Methodolgy
 1. Preprocessing of data
 
@@ -13,7 +25,7 @@ It will preprocess Kaggle's given training dataset into two seperate folders of 
 
 2. Training of Model
 * Dog breed dataset is made using Imagenet datset. Transfer learning on models which are trained on Imagenet dataset will be efficient for identifying dog breed from images. 
-* The model uses the pre-trained VGG-19 and Resnet-50 models as a feature extractor, where the last convolutional output of both networks is fed as input to another, second level model comprising of dense layers, dropout and softmax at the end.
+* The model uses the pre-trained VGG-19 and Resnet-50 models as a feature extractor, where the last convolutional output of both networks is fed as input to another, second level model comprising of dense layers, dropout and softmax classification layer.
 * At the end, both models were combined to achieve a small boost in the result compared to individually achieved by using them separately. 
 
 Execute training python code as 
