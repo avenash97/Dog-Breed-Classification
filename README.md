@@ -37,3 +37,6 @@ Model was trained for 200 Epochs and by running tensorboard for logs will fetch 
 ![alt text](https://github.com/avenash97/Dog-Breed-Classification/blob/master/Images/Loss1.png)
 
 
+
+* Accuracy - 97.85 % was achieved and can be verified in above plot of accuracy vs epochs.
+* Loss - 0.1171 was achieved and can be verified in above plot of loss vs epochs
