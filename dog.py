@@ -32,11 +32,11 @@ valid_files, valid_targets = load_dataset('/home/avenash/dog_breed/data_gen/vali
 test_files, test_targets = load_dataset('/home/avenash/dog_breed/data_gen/test/test')
 #print(sorted(glob("/home/avenash/dog_breed/data_gen/train/**/")))
 dog_names = [item[20:-1] for item in sorted(glob("/home/avenash/dog_breed/data_gen/train/**/"))]
-print('There are %d total dog categories.' % len(dog_names))
-print('There are %s total dog images.\n' % len(np.hstack([train_files, valid_files, test_files])))
-print('There are %d training dog images.' % len(train_files))
-print('There are %d validation dog images.' % len(valid_files))
-print('There are %d test dog images.'% len(test_files))
+#print('There are %d total dog categories.' % len(dog_names))
+#print('There are %s total dog images.\n' % len(np.hstack([train_files, valid_files, test_files])))
+#print('There are %d training dog images.' % len(train_files))
+#print('There are %d validation dog images.' % len(valid_files))
+#print('There are %d test dog images.'% len(test_files))
 
 
 def path_to_tensor(img_path):
