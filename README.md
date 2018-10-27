@@ -19,7 +19,7 @@ Dataset is downloaded from Kaggle's Dog Breed Identification competition which c
 
     Execute preprocessing python code as 
    `
-   python preprocessing.py
+   $ python preprocessing.py
  ` 
 It will preprocess Kaggle's given training dataset into two seperate folders of train and validation (0.3 of Training Dataset). Each folder will have seperate folders highlighting dog's breed and it's corresponding images.
 
@@ -31,10 +31,10 @@ It will preprocess Kaggle's given training dataset into two seperate folders of 
 3. Execute training python code as 
   
   ```
-   python dog.py
+   $ python dog.py
   ```
 
-`model.summary()` will fetch the below image
+`$ model.summary()` will fetch the below image
 ![alt text](https://github.com/avenash97/Dog-Breed-Classification/blob/master/Screenshot%20from%202018-10-27%2021-05-22.png)
 
 ### Results of the model
@@ -42,7 +42,7 @@ It will preprocess Kaggle's given training dataset into two seperate folders of 
 Model was trained for 200 Epochs and by running tensorboard for logs will fetch the below graphs.
    
    ```
-   tensorboard --logdir=/logs
+  $ tensorboard --logdir=/logs
   ```
 ![alt text](https://github.com/avenash97/Dog-Breed-Classification/blob/master/Images/Accuracy1.png)
 
