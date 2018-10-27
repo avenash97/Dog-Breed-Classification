@@ -12,7 +12,7 @@ Dataset is downloaded from Kaggle's Dog Breed Identification competition which c
 It will preprocess Kaggle's given training dataset into two seperate folders of train and validation (0.3 of Training Dataset). Each folder will have seperate folders highlighting dog's breed and it's corresponding images.
 
 2. Training of Model
-* Dog breed dataset is made using Imagent datset. Hence, Transfer learning is used for identifying dog breed from images. 
+* Dog breed dataset is made using Imagenet datset. Transfer learning on models which are trained on Imagenet dataset will be efficient for identifying dog breed from images. 
 * The model uses the pre-trained VGG-19 and Resnet-50 models as a feature extractor, where the last convolutional output of both networks is fed as input to another, second level model comprising of dense layers, dropout and softmax at the end.
 * At the end, both models were combined to achieve a small boost in the result compared to individually achieved by using them separately. 
 
