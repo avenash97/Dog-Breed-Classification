@@ -26,10 +26,14 @@ model.summary() will fetch the below image
 ![alt text](https://github.com/avenash97/Dog-Breed-Classification/blob/master/Screenshot%20from%202018-10-27%2021-05-22.png)
 
 3. Results of the model
+
 Model was trained for 200 Epochs and by running tensorboard for logs will fetch the below graphs.
    
    ```
    tensorboard --logdir=/logs
   ```
+![alt text](https://github.com/avenash97/Dog-Breed-Classification/blob/master/Images/Accuracy1.png)
+
+![alt text](https://github.com/avenash97/Dog-Breed-Classification/blob/master/Images/Loss1.png)
 
 
