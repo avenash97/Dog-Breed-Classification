@@ -34,7 +34,7 @@ It will preprocess Kaggle's given training dataset into two seperate folders of 
    $ python dog.py
   ```
 
-`$ model.summary()` will fetch the below image
+`model.summary()` will fetch the below image
 ![alt text](https://github.com/avenash97/Dog-Breed-Classification/blob/master/Screenshot%20from%202018-10-27%2021-05-22.png)
 
 ### Results of the model
