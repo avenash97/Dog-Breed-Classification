@@ -7,11 +7,10 @@ Dataset is downloaded from Kaggle's Dog Breed Identification competition which c
 1. keras
 2. tensorflow
 3. matplotlib
-4. tflearn
-5. sklearn
-6. pillow
-7. numpy
-8. pandas
+4. sklearn
+5. pillow
+6. numpy
+7. pandas
 ```
 
 ### Methodolgy
